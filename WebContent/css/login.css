@@ -1,0 +1,87 @@
+@charset "ISO-8859-1";
+@charset "ISO-8859-1";
+body {font-family: Arial, Helvetica, sans-serif;}
+*
+
+.input-container {
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 13px;
+  border: 1px solid #c0c0c0;
+  border-radius: 4px;
+  background-color: #eaeaea;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+  border-radius : 6px;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-size:18px ;
+}
+
+.btn:hover {
+  background-color: #0066ff;
+}
+
+a:link, a:visited {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width:100%;
+}
+
+a:hover, a:active {
+  background-color: #0066ff;
+}
+.form1 {
+    margin-left: 20cm;
+    font-size:18px ;
+    margin-top: 4.6cm;
+    position: absolute;
+    background-color: transparent;
+    width: 40%;
+    border: transparent;
+  }
+  .margin1 {
+    margin-left: 1.5cm;
+    margin-right: 1.5cm;
+}
+.head2 {
+	font-size:90px;
+	color: white;
+	margin-top:4cm;
+	margin-left:1.2cm;
+}
+.subhead1{
+	font-size:20px;
+	color: silver;
+	margin-top:-2.5cm;
+	margin-left:1.3cm;
+}
